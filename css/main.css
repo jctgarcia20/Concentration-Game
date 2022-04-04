@@ -22,7 +22,7 @@ main {
 		"title"
   	"scoreboard"
   	"timer"
-  	"board";
+  	"cards";
 }
 
 .title {
@@ -47,18 +47,59 @@ main {
 	color: white;
 }
 
+.lives {
+	grid-area: scoreboard;
+	display: flex;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	background-color: black;
+	color: rgb(188	37 26);
+	width: 14vmin;
+	height: 7vmin;
+	font-size: 6vmin;
+}
+
 .timer {
 	grid-area: timer;
 	display: flex;
 	background-color: rgb(0, 0, 0);
-	width: 12vmin;
-	height: 6vmin;
+	width: 20vmin;
+	height: 8vmin;
 	color: rgb(188	37 26);
-	font-size: 5vmin;
+	font-size: 7vmin;
 	text-align: center;
 	align-items: flex-start;
 	align-content: flex-start;
 	justify-content: center;
 }
 
+.play-btn {
+	grid-area: timer;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(201	0	8);
+	color: white;
+	font-weight: bold;
+	width: 8vmin;
+	height: 4vmin;
+}
 
+.moves {
+	grid-area: scoreboard;
+	display: flex;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	background-color: black;
+	color: rgb(188	37 26);
+	width: 14vmin;
+	height: 7vmin;
+	font-size: 6vmin;
+}
+
+#cards {
+
+}
