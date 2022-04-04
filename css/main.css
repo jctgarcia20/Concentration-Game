@@ -16,12 +16,11 @@ body {
 
 main {
 	display: grid;
-	grid-template-columns: 35vmin 70vmin 35vmin;
- 	grid-template-rows: 7vmin 15vmin 35vmin 15vmin;
+	grid-template-columns: 25vmin 80vmin 25vmin;
+ 	grid-template-rows: 7vmin 15vmin 75vmin;
  	grid-template-areas: 
 		"title"
   	"scoreboard"
-  	"timer"
   	"cards";
 }
 
@@ -40,11 +39,16 @@ main {
 .scoreboard {
   grid-area: scoreboard;
   display: flex;
+	flex-direction: row;
   grid-column-start: 3;
   justify-content: center;
   align-items: center;
   background-color: rgb(2 34 86);
 	color: white;
+}
+
+.scoreboard > div {
+	margin: 5vmin;
 }
 
 .lives {
@@ -58,13 +62,20 @@ main {
 	width: 14vmin;
 	height: 7vmin;
 	font-size: 6vmin;
+	margin: auto;
+	margin-top: -2vmin;
+	margin-bottom: 8vmin;
+}
+
+.lives-title {
+	text-align: center;
 }
 
 .timer {
-	grid-area: timer;
+	grid-area: scoreboard;
 	display: flex;
 	background-color: rgb(0, 0, 0);
-	width: 20vmin;
+	width: 22vmin;
 	height: 8vmin;
 	color: rgb(188	37 26);
 	font-size: 7vmin;
@@ -72,19 +83,22 @@ main {
 	align-items: flex-start;
 	align-content: flex-start;
 	justify-content: center;
+	margin-top: -1.8vmin;
 }
 
 .play-btn {
-	grid-area: timer;
+	grid-area: scoreboard;
 	display: flex;
-	text-align: center;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	background-color: rgb(201	0	8);
 	color: white;
 	font-weight: bold;
-	width: 8vmin;
+	width: 9vmin;
 	height: 4vmin;
+	margin: auto;
+	margin-top: -4vmin;
 }
 
 .moves {
@@ -98,8 +112,29 @@ main {
 	width: 14vmin;
 	height: 7vmin;
 	font-size: 6vmin;
+	margin: auto;
+	margin-top: -2vmin;
+	margin-bottom: 8vmin;
+}
+
+.moves-title {
+	text-align: center;
 }
 
 #cards {
+	grid-area: cards;
+	display: flex;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	/* margin: 0;
+	padding: 0; */
+	/* background-color: red; */
+}
 
+#card-down {
+	background: silver;
 }
