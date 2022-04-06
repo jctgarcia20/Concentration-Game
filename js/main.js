@@ -2,288 +2,245 @@
 const cardsArray = [
 	{
 		name: 'rams',
-		image: 'imgs/los-angeles-rams-2020-logo-300x300.png'
-	},
-	{
-		name: 'rams',
-		image: 'imgs/los-angeles-rams-2020-logo-300x300.png'
+		image: 'https://i.imgur.com/IIZHuCu.png',
+		matched: false
 	},
 	{
 		name: 'cardinals',
-		image: 'imgs/nfl-arizona-cardinals-team-logo-2-300x300.png'
-	},
-	{
-		name: 'cardinals',
-		image: 'imgs/nfl-arizona-cardinals-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/0bmV8Nd.png',
+		matched: false
 	},
 	{
 		name: 'falcons',
-		image: 'imgs/nfl-atlanta-falcons-team-logo-2-300x300.png'
-	},
-	{
-		name: 'falcons',
-		image: 'imgs/nfl-atlanta-falcons-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/UTr8Bje.png',
+		matched: false
 	},
 	{
 		name: 'ravens',
-		image: 'imgs/nfl-baltimore-ravens-team-logo-2-300x300.png'
-	},
-	{
-		name: 'ravens',
-		image: 'imgs/nfl-baltimore-ravens-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/hmxbrTk.png',
+		matched: false
 	},
 	{
 		name: 'bills',
-		image: 'imgs/nfl-buffalo-bills-team-logo-2-300x300.png'
-	},
-	{
-		name: 'bills',
-		image: 'imgs/nfl-buffalo-bills-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/5FYTl1Q.png',
+		matched: false
 	},
 	{
 		name: 'panthers',
-		image: 'imgs/nfl-carolina-panthers-team-logo-2-300x300.png'
-	},
-	{
-		name: 'panthers',
-		image: 'imgs/nfl-carolina-panthers-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/1x4mDFG.png',
+		matched: false
 	},
 	{
 		name: 'bears',
-		image: 'imgs/nfl-chicago-bears-team-logo-2-300x300.png'
-	},
-	{
-		name: 'bears',
-		image: 'imgs/nfl-chicago-bears-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/YOi6M65.png',
+		matched: false
 	},
 	{
 		name: 'bengals',
-		image: 'imgs/nfl-cincinnati-bengals-team-logo-300x300.png'
-	},
-	{
-		name: 'bengals',
-		image: 'imgs/nfl-cincinnati-bengals-team-logo-300x300.png'
+		image: 'https://i.imgur.com/6pJTksm.png',
+		matched: false
 	},
 	{
 		name: 'browns',
-		image: 'imgs/nfl-cleveland-browns-team-logo-2-300x300.png'
-	},
-	{
-		name: 'browns',
-		image: 'imgs/nfl-cleveland-browns-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/SqKqqWf.png',
+		matched: false
 	},
 	{
 		name: 'cowboys',
-		image: 'imgs/nfl-dallas-cowboys-team-logo-2-300x300.png'
-	},
-	{
-		name: 'cowboys',
-		image: 'imgs/nfl-dallas-cowboys-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/zeq4InO.png',
+		matched: false
 	},
 	{
 		name: 'broncos',
-		image: 'imgs/nfl-denver-broncos-team-logo-2-300x300.png'
-	},
-	{
-		name: 'broncos',
-		image: 'imgs/nfl-denver-broncos-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/qkD7j5W.png',
+		matched: false
 	},
 	{
 		name: 'lions',
-		image: 'imgs/nfl-detroit-lions-team-logo-2-300x300.png'
-	},
-	{
-		name: 'lions',
-		image: 'imgs/nfl-detroit-lions-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/sde7wXq.png',
+		matched: false
 	},
 	{
 		name: 'packers',
-		image: 'imgs/nfl-green-bay-packers-team-logo-2-300x300.png'
-	},
-	{
-		name: 'packers',
-		image: 'imgs/nfl-green-bay-packers-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/hSq69w4.png',
+		matched: false
 	},
 	{
 		name: 'texans',
-		image: 'imgs/nfl-houston-texans-team-logo-2-300x300.png'
-	},
-	{
-		name: 'texans',
-		image: 'imgs/nfl-houston-texans-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/F5xZv41.png',
+		matched: false
 	},
 	{
 		name: 'colts',
-		image: 'imgs/nfl-indianapolis-colts-team-logo-2-300x300.png'
-	},
-	{
-		name: 'colts',
-		image: 'imgs/nfl-indianapolis-colts-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/yMLQ2HE.png',
+		matched: false
 	},
 	{
 		name: 'jaguars',
-		image: 'imgs/nfl-jacksonville-jaguars-team-logo-2-300x300.png'
-	},
-	{
-		name: 'jaguars',
-		image: 'imgs/nfl-jacksonville-jaguars-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/fVIIaOS.png',
+		matched: false
 	},
 	{
 		name: 'chiefs',
-		image: 'imgs/nfl-kansas-city-chiefs-team-logo-2-300x300.png'
-	},
-	{
-		name: 'chiefs',
-		image: 'imgs/nfl-kansas-city-chiefs-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/EpOa7d1.png',
+		matched: false
 	},
 	{
 		name: 'chargers',
-		image: 'imgs/nfl-los-angeles-chargers-team-logo-2-300x300.png'
-	},
-	{
-		name: 'chargers',
-		image: 'imgs/nfl-los-angeles-chargers-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/xubHddO.png',
+		matched: false
 	},
 	{
 		name: 'dolphins',
-		image: 'imgs/nfl-miami-dolphins-logo-2018-300x300.png'
-	},
-	{
-		name: 'dolphins',
-		image: 'imgs/nfl-miami-dolphins-logo-2018-300x300.png'
+		image: 'https://i.imgur.com/dLSqnWa.png',
+		matched: false
 	},
 	{
 		name: 'vikings',
-		image: 'imgs/nfl-minnesota-vikings-team-logo-2-300x300.png'
-	},
-	{
-		name: 'vikings',
-		image: 'imgs/nfl-minnesota-vikings-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/oMBQbJP.png',
+		matched: false
 	},
 	{
 		name: 'patriots',
-		image: 'imgs/nfl-new-england-patriots-team-logo-2-300x300.png'
-	},
-	{
-		name: 'patriots',
-		image: 'imgs/nfl-new-england-patriots-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/wqzFDuT.png',
+		matched: false
 	},
 	{
 		name: 'saints',
-		image: 'imgs/nfl-new-orleans-saints-team-logo-2-300x300.png'
-	},
-	{
-		name: 'saints',
-		image: 'imgs/nfl-new-orleans-saints-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/5xpcvki.png',
+		matched: false
 	},
 	{
 		name: 'giants',
-		image: 'imgs/nfl-new-york-giants-team-logo-2-300x300.png'
-	},
-	{
-		name: 'giants',
-		image: 'imgs/nfl-new-york-giants-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/RgadcHD.png',
+		matched: false
 	},
 	{
 		name: 'jets',
-		image: 'imgs/nfl-new-york-jets-team-logo-300x300.png'
-	},
-	{
-		name: 'jets',
-		image: 'imgs/nfl-new-york-jets-team-logo-300x300.png'
+		image: 'https://i.imgur.com/KCKKJ4y.png',
+		matched: false
 	},
 	{
 		name: 'raiders',
-		image: 'imgs/nfl-oakland-raiders-team-logo-300x300.png'
-	},
-	{
-		name: 'raiders',
-		image: 'imgs/nfl-oakland-raiders-team-logo-300x300.png'
+		image: 'https://i.imgur.com/Ju1B7sP.png',
+		matched: false
 	},
 	{
 		name: 'eagles',
-		image: 'imgs/nfl-philadelphia-eagles-team-logo-2-300x300.png'
-	},
-	{
-		name: 'eagles',
-		image: 'imgs/nfl-philadelphia-eagles-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/Mc8duo0.png',
+		matched: false
 	},
 	{
 		name: 'steelers',
-		image: 'imgs/nfl-pittsburgh-steelers-team-logo-2-300x300.png'
-	},
-	{
-		name: 'steelers',
-		image: 'imgs/nfl-pittsburgh-steelers-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/7hAPXgY.png',
+		matched: false
 	},
 	{
 		name: '49ers',
-		image: 'imgs/nfl-san-francisco-49ers-team-logo-2-300x300.png'
-	},
-	{
-		name: '49ers',
-		image: 'imgs/nfl-san-francisco-49ers-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/ziydVuy.png',
+		matched: false
 	},
 	{
 		name: 'seahawks',
-		image: 'imgs/nfl-seattle-seahawks-team-logo-2-300x300.png'
-	},
-	{
-		name: 'seahawks',
-		image: 'imgs/nfl-seattle-seahawks-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/spOay6D.png',
+		matched: false
 	},
 	{
 		name: 'titans',
-		image: 'imgs/nfl-tennessee-titans-team-logo-2-300x300.png'
-	},
-	{
-		name: 'titans',
-		image: 'imgs/nfl-tennessee-titans-team-logo-2-300x300.png'
+		image: 'https://i.imgur.com/5h9XFd1.png',
+		matched: false
 	},
 	{
 		name: 'buccaneers',
-		image: 'imgs/tampa-bay-buccaneers-2020-logo-300x300.png'
-	},
-	{
-		name: 'buccaneers',
-		image: 'imgs/tampa-bay-buccaneers-2020-logo-300x300.png'
+		image: 'https://i.imgur.com/kTnFPXh.png',
+		matched: false
 	},
 	{
 		name: 'commanders',
-		image: 'imgs/washington-commanders-logo-300x300.png'
+		image: 'https://i.imgur.com/FT8hxFX.png',
+		matched: false
 	},
-	{
-		name: 'commanders',
-		image: 'imgs/washington-commanders-logo-300x300.png'
-	},
-]
+];
 
+const cardBack = 'https://i.imgur.com/9nQTYf1.png';
 
 /*----- app's state (variables) -----*/
-let board;
-let firstCard, secondCard;
-let results;
-let winner;
+let cards;
+let firstCard;
+let secondCard;
+let numBad;
+let ignoreClicks;
 
 /*----- cached element references -----*/
-const cards = document.querySelector('#cards');
+const movesEl = document.querySelector('.moves');
+const livesEl = document.querySelector('.lives');
 
 
 /*----- event listeners -----*/
-
+document.querySelector('main').addEventListener('click', handleChoice);
+document.querySelector('.timer').addEventListener('click', handleChoice)
 
 /*----- functions -----*/
 init();
 
 function init() {
-
-
-  render();
+	cards = getShuffledCards();
+	firstCard = null;
+	numBad = 0;
+	ignoreClicks = false;
+	render();
 }
 
-// Create board
-function board() {
-	for (let i = 0; i < cardArray.length; i++) {
-		let card = document.createElement('img')
+function render() {
+	cards.forEach(function(card, idx) {
+		const imgEl = document.getElementById(idx);
+		const src = (card.matched || card === firstCard) ? card.img : cardBack;
+		imgEl.src = src;
+	});
+	movesEl.innerHTML = `${numBad}`;
+}
+
+function getShuffledCards() {
+	let tempCards = [];
+	let cards = [];
+	for (let card of cardsArray) {
+		tempCards.push({ ...card }, { ...card });
 	}
+	while (tempCards.length) {
+		let rndIdx = Math.floor(Math.random() * tempCards.length);
+		let card = tempCards.splice(rndIdx, 1)[0];
+		cards.push(card);
+	}
+	return cards;
+}
+
+function handleChoice(evt) {
+	const cardIdx = parseInt(evt.target.id);
+	if (isNaN(cardIdx) || ignoreClicks) return;
+	const card = cards[cardIdx];
+	if (firstCard) {
+		if (firstCard.img === card.img) {
+			// correct match
+			firstCard.matched = card.matched = true
+		} else {
+			numBad++;
+		}
+		firstCard = null;
+	} else {
+		firstCard = card;
+	}
+	if (secondCard) {
+		if (secondCard.img === firstCard.img) {
+			//correct match
+			secondCard.matched = firstCard.matched = true
+		} else {
+			numBad++;
+		}
+		secondCard = null;
+		firstCard = null;
+	} else {
+		secondCard = card;
+		firstCard = card;
+	}
+	render();
 }
