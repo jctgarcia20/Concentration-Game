@@ -180,12 +180,11 @@ const movesEl = document.querySelector('.moves');
 const livesEl = document.querySelector('.lives');
 const timerEl = document.querySelector('.timer');
 const msgEl = document.querySelector('h2');
-// const resetBtn = [...document.getElementById('.reset-button')];
 
 /*----- event listeners -----*/
 document.querySelector('main').addEventListener('click', handleChoice);
 document.querySelector('.timer').addEventListener('click', handleChoice);
-// resetBtn.addEventListener('click', init);
+document.querySelector('button').addEventListener('click', init);
 
 /*----- functions -----*/
 init();
@@ -200,7 +199,7 @@ function init() {
 	timer = '0:00';
 	ignoreClicks = false;
 	checkWinner = null;
-	restart = 
+	
 	render();
 }
 
@@ -215,7 +214,6 @@ function render() {
 
 	renderMsg();
 
-	// resetBtn = checkWinner;
 }
 
 function renderMsg() {
@@ -256,7 +254,6 @@ function handleChoice(evt) {
 	} else {
 		firstCard = card;
 	}
-
 	if (secondCard) {
 		if (secondCard.img === card.img) {
 			secondCard.matched = card.matched = true
@@ -269,6 +266,7 @@ function handleChoice(evt) {
 		firstCard = card;
 	}
 
+	// Let certain number of moves effect the lives counter
 	if (livesCounter) {
 		if (numBad === 50) {
 			livesEl.innerHTML = '2';

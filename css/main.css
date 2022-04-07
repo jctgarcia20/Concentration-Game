@@ -123,6 +123,15 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	color: white;
+	font-weight: bold;
+	font-size: 4.3vmin;
+	text-align: center;
+	-webkit-text-stroke: 0.05vmin black;
+	margin-top: -2.7vmin;
+}
+
 main {
 	display: grid;
   grid-template-columns: repeat(8, 8vmin);
