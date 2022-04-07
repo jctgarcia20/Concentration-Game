@@ -2,162 +2,162 @@
 const cardsArray = [
 	{
 		name: 'rams',
-		image: 'https://i.imgur.com/IIZHuCu.png',
+		img: 'https://i.imgur.com/IIZHuCu.png',
 		matched: false
 	},
 	{
 		name: 'cardinals',
-		image: 'https://i.imgur.com/0bmV8Nd.png',
+		img: 'https://i.imgur.com/0bmV8Nd.png',
 		matched: false
 	},
 	{
 		name: 'falcons',
-		image: 'https://i.imgur.com/UTr8Bje.png',
+		img: 'https://i.imgur.com/UTr8Bje.png',
 		matched: false
 	},
 	{
 		name: 'ravens',
-		image: 'https://i.imgur.com/hmxbrTk.png',
+		img: 'https://i.imgur.com/hmxbrTk.png',
 		matched: false
 	},
 	{
 		name: 'bills',
-		image: 'https://i.imgur.com/5FYTl1Q.png',
+		img: 'https://i.imgur.com/5FYTl1Q.png',
 		matched: false
 	},
 	{
 		name: 'panthers',
-		image: 'https://i.imgur.com/1x4mDFG.png',
+		img: 'https://i.imgur.com/1x4mDFG.png',
 		matched: false
 	},
 	{
 		name: 'bears',
-		image: 'https://i.imgur.com/YOi6M65.png',
+		img: 'https://i.imgur.com/YOi6M65.png',
 		matched: false
 	},
 	{
 		name: 'bengals',
-		image: 'https://i.imgur.com/6pJTksm.png',
+		img: 'https://i.imgur.com/6pJTksm.png',
 		matched: false
 	},
 	{
 		name: 'browns',
-		image: 'https://i.imgur.com/SqKqqWf.png',
+		img: 'https://i.imgur.com/SqKqqWf.png',
 		matched: false
 	},
 	{
 		name: 'cowboys',
-		image: 'https://i.imgur.com/zeq4InO.png',
+		img: 'https://i.imgur.com/zeq4InO.png',
 		matched: false
 	},
 	{
 		name: 'broncos',
-		image: 'https://i.imgur.com/qkD7j5W.png',
+		img: 'https://i.imgur.com/qkD7j5W.png',
 		matched: false
 	},
 	{
 		name: 'lions',
-		image: 'https://i.imgur.com/sde7wXq.png',
+		img: 'https://i.imgur.com/sde7wXq.png',
 		matched: false
 	},
 	{
 		name: 'packers',
-		image: 'https://i.imgur.com/hSq69w4.png',
+		img: 'https://i.imgur.com/hSq69w4.png',
 		matched: false
 	},
 	{
 		name: 'texans',
-		image: 'https://i.imgur.com/F5xZv41.png',
+		img: 'https://i.imgur.com/F5xZv41.png',
 		matched: false
 	},
 	{
 		name: 'colts',
-		image: 'https://i.imgur.com/yMLQ2HE.png',
+		img: 'https://i.imgur.com/yMLQ2HE.png',
 		matched: false
 	},
 	{
 		name: 'jaguars',
-		image: 'https://i.imgur.com/fVIIaOS.png',
+		img: 'https://i.imgur.com/fVIIaOS.png',
 		matched: false
 	},
 	{
 		name: 'chiefs',
-		image: 'https://i.imgur.com/EpOa7d1.png',
+		img: 'https://i.imgur.com/EpOa7d1.png',
 		matched: false
 	},
 	{
 		name: 'chargers',
-		image: 'https://i.imgur.com/xubHddO.png',
+		img: 'https://i.imgur.com/xubHddO.png',
 		matched: false
 	},
 	{
 		name: 'dolphins',
-		image: 'https://i.imgur.com/dLSqnWa.png',
+		img: 'https://i.imgur.com/dLSqnWa.png',
 		matched: false
 	},
 	{
 		name: 'vikings',
-		image: 'https://i.imgur.com/oMBQbJP.png',
+		img: 'https://i.imgur.com/oMBQbJP.png',
 		matched: false
 	},
 	{
 		name: 'patriots',
-		image: 'https://i.imgur.com/wqzFDuT.png',
+		img: 'https://i.imgur.com/wqzFDuT.png',
 		matched: false
 	},
 	{
 		name: 'saints',
-		image: 'https://i.imgur.com/5xpcvki.png',
+		img: 'https://i.imgur.com/5xpcvki.png',
 		matched: false
 	},
 	{
 		name: 'giants',
-		image: 'https://i.imgur.com/RgadcHD.png',
+		img: 'https://i.imgur.com/RgadcHD.png',
 		matched: false
 	},
 	{
 		name: 'jets',
-		image: 'https://i.imgur.com/KCKKJ4y.png',
+		img: 'https://i.imgur.com/KCKKJ4y.png',
 		matched: false
 	},
 	{
 		name: 'raiders',
-		image: 'https://i.imgur.com/Ju1B7sP.png',
+		img: 'https://i.imgur.com/Ju1B7sP.png',
 		matched: false
 	},
 	{
 		name: 'eagles',
-		image: 'https://i.imgur.com/Mc8duo0.png',
+		img: 'https://i.imgur.com/Mc8duo0.png',
 		matched: false
 	},
 	{
 		name: 'steelers',
-		image: 'https://i.imgur.com/7hAPXgY.png',
+		img: 'https://i.imgur.com/7hAPXgY.png',
 		matched: false
 	},
 	{
 		name: '49ers',
-		image: 'https://i.imgur.com/ziydVuy.png',
+		img: 'https://i.imgur.com/ziydVuy.png',
 		matched: false
 	},
 	{
 		name: 'seahawks',
-		image: 'https://i.imgur.com/spOay6D.png',
+		img: 'https://i.imgur.com/spOay6D.png',
 		matched: false
 	},
 	{
 		name: 'titans',
-		image: 'https://i.imgur.com/5h9XFd1.png',
+		img: 'https://i.imgur.com/5h9XFd1.png',
 		matched: false
 	},
 	{
 		name: 'buccaneers',
-		image: 'https://i.imgur.com/kTnFPXh.png',
+		img: 'https://i.imgur.com/kTnFPXh.png',
 		matched: false
 	},
 	{
 		name: 'commanders',
-		image: 'https://i.imgur.com/FT8hxFX.png',
+		img: 'https://i.imgur.com/FT8hxFX.png',
 		matched: false
 	},
 ];
@@ -165,29 +165,42 @@ const cardsArray = [
 const cardBack = 'https://i.imgur.com/9nQTYf1.png';
 
 /*----- app's state (variables) -----*/
-let cards;
-let firstCard;
-let secondCard;
-let numBad;
-let ignoreClicks;
+let cards;  // Array of 64 shuffled card objects
+let firstCard;  // First card clicked (card object) or null
+let secondCard;  // Second card clicked (card object) if matches first card or not
+let numBad;  // Number of moves made
+let livesCounter;  // 3 Lives = Number of moves made (numBad)
+let timer;  // Clock Timer to track how fast you win or fail the game
+let ignoreClicks;  // Clicking anything than the cards itself
+let checkWinner;  // Displays 'Winner' or 'Loser'; null -> game in progress
+let restart;  // Resets the array of 64 shuffled cards
 
 /*----- cached element references -----*/
 const movesEl = document.querySelector('.moves');
 const livesEl = document.querySelector('.lives');
-
+const timerEl = document.querySelector('.timer');
+const msgEl = document.querySelector('h2');
+// const resetBtn = [...document.getElementById('.reset-button')];
 
 /*----- event listeners -----*/
 document.querySelector('main').addEventListener('click', handleChoice);
-document.querySelector('.timer').addEventListener('click', handleChoice)
+document.querySelector('.timer').addEventListener('click', handleChoice);
+// resetBtn.addEventListener('click', init);
 
 /*----- functions -----*/
 init();
 
+// Initialize all state, then call render()
 function init() {
 	cards = getShuffledCards();
 	firstCard = null;
+	secondCard = null;
 	numBad = 0;
+	livesCounter = 3;
+	timer = '0:00';
 	ignoreClicks = false;
+	checkWinner = null;
+	restart = 
 	render();
 }
 
@@ -198,6 +211,19 @@ function render() {
 		imgEl.src = src;
 	});
 	movesEl.innerHTML = `${numBad}`;
+	timerEl.innerHTML = `${timer}`;
+
+	renderMsg();
+
+	// resetBtn = checkWinner;
+}
+
+function renderMsg() {
+	if (checkWinner === "WINNER") {
+		msgEl.innerText = "WINNER! Guess who's going to Disney World?";
+	} else if (checkWinner === "LOSER") {
+		msgEl.innerText = "LOSER! Maybe you'll meet Mickey Mouse next year...";
+	}
 }
 
 function getShuffledCards() {
@@ -214,6 +240,7 @@ function getShuffledCards() {
 	return cards;
 }
 
+// Update all impacted state, then call render()
 function handleChoice(evt) {
 	const cardIdx = parseInt(evt.target.id);
 	if (isNaN(cardIdx) || ignoreClicks) return;
@@ -229,18 +256,41 @@ function handleChoice(evt) {
 	} else {
 		firstCard = card;
 	}
+
 	if (secondCard) {
-		if (secondCard.img === firstCard.img) {
-			//correct match
-			secondCard.matched = firstCard.matched = true
+		if (secondCard.img === card.img) {
+			secondCard.matched = card.matched = true
+		// } else if (secondCard.img === firstCard.img) {
+		// 	//correct match
+		// 	secondCard.matched = firstCard.matched = true
 		} else {
 			numBad++;
 		}
 		secondCard = null;
-		firstCard = null;
+		// firstCard = null;
 	} else {
 		secondCard = card;
-		firstCard = card;
+		// firstCard = card;
 	}
+
+	if (livesCounter) {
+		if (numBad === 32) {
+			livesEl.innerHTML = '2';
+		} else if (numBad === 64) {
+			livesEl.innerHTML = '1';
+		} else if (numBad === 102) {
+			livesEl.innerHTML = '0';
+		}
+	}
+
+	// if (checkWinner) return;
+
+	// checkWinner = checkForWinner();
 	render();
 }
+
+// function checkForWinner() {
+// 	if (cards === tempCards.length) return 'WINNER';
+// 	if (livesCounter < livesCounter('0')) return 'LOSER';
+// 	return null;
+// }
