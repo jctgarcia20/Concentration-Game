@@ -13,12 +13,6 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	display: flexbox;
-	/* grid-template-columns: 25vmin 80vmin 25vmin;
-	 grid-template-rows: 7vmin 8vmin 75vmin;
-	 grid-template-areas: 
-		"title"
-		"scoreboard"
-		"cards"; */
 }
 
 img {
@@ -29,10 +23,8 @@ img {
 }
 
 h1 {
-	/* grid-area: title; */
 	display: flex;
 	margin: 0;
-	/* grid-column-start: 3; */
 	align-items: center;
 	justify-content: center;
 	font-weight: bold;
@@ -43,10 +35,8 @@ h1 {
 }
     
 .scoreboard {
-  /* grid-area: scoreboard; */
   display: flex;
 	flex-direction: row;
-  /* grid-column-start: 3; */
   justify-content: center;
   align-items: center;
   background-color: rgb(2, 34, 86);
@@ -60,7 +50,6 @@ h1 {
 }
 
 .lives {
-	/* grid-area: scoreboard; */
 	display: flex;
 	text-align: center;
 	align-content: center;
@@ -81,7 +70,6 @@ h1 {
 }
 
 .timer {
-	/* grid-area: scoreboard; */
 	display: flex;
 	background-color: rgb(0, 0, 0);
 	width: 22vmin;
@@ -97,7 +85,6 @@ h1 {
 }
 
 .reset-btn {
-	/* grid-area: scoreboard; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -117,7 +104,6 @@ h1 {
 }
 
 .moves {
-	/* grid-area: scoreboard; */
 	display: flex;
 	text-align: center;
 	align-content: center;
@@ -139,17 +125,12 @@ h1 {
 
 main {
 	display: grid;
-	/* grid-area: cards; */
   grid-template-columns: repeat(8, 8vmin);
   grid-template-rows: repeat(8, 8vmin);
   gap: 1vmin;
 	text-align: center;
 	align-content: center;
 	justify-content: center;
-}
-
-img {
-	border: 0.5vmin solid rgb(2, 34, 86);
 }
 
 img:hover {

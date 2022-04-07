@@ -162,7 +162,7 @@ const cardsArray = [
 	},
 ];
 
-const cardBack = 'https://i.imgur.com/9nQTYf1.png';
+const cardBack = 'https://i.imgur.com/ut9htoZ.png';
 
 /*----- app's state (variables) -----*/
 let cards;  // Array of 64 shuffled card objects
@@ -260,25 +260,21 @@ function handleChoice(evt) {
 	if (secondCard) {
 		if (secondCard.img === card.img) {
 			secondCard.matched = card.matched = true
-		// } else if (secondCard.img === firstCard.img) {
-		// 	//correct match
-		// 	secondCard.matched = firstCard.matched = true
 		} else {
 			numBad++;
 		}
-		secondCard = null;
-		// firstCard = null;
-	} else {
+		firstCard = card;
 		secondCard = card;
-		// firstCard = card;
+	} else {
+		firstCard = card;
 	}
 
 	if (livesCounter) {
-		if (numBad === 32) {
+		if (numBad === 50) {
 			livesEl.innerHTML = '2';
-		} else if (numBad === 64) {
+		} else if (numBad === 100) {
 			livesEl.innerHTML = '1';
-		} else if (numBad === 102) {
+		} else if (numBad === 150) {
 			livesEl.innerHTML = '0';
 		}
 	}
@@ -291,6 +287,6 @@ function handleChoice(evt) {
 
 // function checkForWinner() {
 // 	if (cards === tempCards.length) return 'WINNER';
-// 	if (livesCounter < livesCounter('0')) return 'LOSER';
+// 	if (livesEl.innerHTML = '0') return 'LOSER';
 // 	return null;
 // }
