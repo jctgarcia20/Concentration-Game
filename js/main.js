@@ -172,18 +172,19 @@ let numBad;  // Number of moves made
 let livesCounter;  // 3 Lives = Number of moves made (numBad)
 let timer;  // Clock Timer to track how fast you win or fail the game
 let ignoreClicks;  // Clicking anything than the cards itself
-let checkWinner;  // Displays 'Winner' or 'Loser'; null -> game in progress
+let gameStatus;  // Displays 'Winner' or 'Loser'; null -> game in progress
 let restart;  // Resets the array of 64 shuffled cards
 
 /*----- cached element references -----*/
 const movesEl = document.querySelector('.moves');
 const livesEl = document.querySelector('.lives');
-const timerEl = document.querySelector('.timer');
+// const minuteEl = document.getElementById('#minute').innerText = returnData(minute);
+// const secondEl = document.getElementById('#second').innerText = returnData(second);
 const msgEl = document.querySelector('h2');
 
 /*----- event listeners -----*/
 document.querySelector('main').addEventListener('click', handleChoice);
-document.querySelector('.timer').addEventListener('click', handleChoice);
+// document.querySelector('.timer').addEventListener('click', 'main');
 document.querySelector('button').addEventListener('click', init);
 
 /*----- functions -----*/
@@ -195,10 +196,10 @@ function init() {
 	firstCard = null;
 	secondCard = null;
 	numBad = 0;
-	livesCounter = 3;
-	timer = '0:00';
+	livesCounter = livesEl.innerHTML = '3';
+	// timer = clock();
 	ignoreClicks = false;
-	checkWinner = null;
+	gameStatus = null;
 	
 	render();
 }
@@ -211,15 +212,29 @@ function render() {
 	});
 	movesEl.innerHTML = `${numBad}`;
 	timerEl.innerHTML = `${timer}`;
-
+	
+	// clock();
 	renderMsg();
-
 }
 
+// function clock() {
+// 	let minute = 0;
+// 	let second = 0;
+
+// 	if (second === 60) {
+//     second = 0;
+//     minute++;
+//   }
+//   if (minute === 60) {
+//     minute = 0;
+//     hour++;
+//   }
+// }
+
 function renderMsg() {
-	if (checkWinner === "WINNER") {
-		msgEl.innerText = "WINNER! Guess who's going to Disney World?";
-	} else if (checkWinner === "LOSER") {
+	if (gameStatus === "WINNER") {
+		msgEl.innerText = "WINNER! YOU'RE GOING TO DISNEY WORLD!";
+	} else if (gameStatus === "LOSER") {
 		msgEl.innerText = "LOSER! Maybe you'll meet Mickey Mouse next year...";
 	}
 }
@@ -241,7 +256,7 @@ function getShuffledCards() {
 // Update all impacted state, then call render()
 function handleChoice(evt) {
 	const cardIdx = parseInt(evt.target.id);
-	if (isNaN(cardIdx) || ignoreClicks) return;
+	if (isNaN(cardIdx) || ignoreClicks || gameStatus) return;
 	const card = cards[cardIdx];
 	if (firstCard) {
 		if (firstCard.img === card.img) {
@@ -277,14 +292,12 @@ function handleChoice(evt) {
 		}
 	}
 
-	// if (checkWinner) return;
-
-	// checkWinner = checkForWinner();
+	gameStatus = checkForWinner();
 	render();
 }
 
-// function checkForWinner() {
-// 	if (cards === tempCards.length) return 'WINNER';
-// 	if (livesEl.innerHTML = '0') return 'LOSER';
-// 	return null;
-// }
+function checkForWinner() {
+	if (cards === cards.length) return 'WINNER';
+	if (livesEl.innerHTML === '0') return 'LOSER';
+	return null;
+}
