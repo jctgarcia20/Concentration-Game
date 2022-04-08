@@ -170,7 +170,7 @@ let firstCard;  // First card clicked (card object) or null
 let secondCard;  // Second card clicked (card object) if matches first card or not
 let numBad;  // Number of moves made
 let livesCounter;  // 3 Lives = Number of moves made (numBad)
-let timer;  // Clock Timer to track how fast you win or fail the game
+let stopWatch;  // Clock Timer to track how fast you win or fail the game
 let ignoreClicks;  // Clicking anything than the cards itself
 let gameStatus;  // Displays 'Winner' or 'Loser'; null -> game in progress
 let restart;  // Resets the array of 64 shuffled cards
@@ -178,14 +178,13 @@ let restart;  // Resets the array of 64 shuffled cards
 /*----- cached element references -----*/
 const movesEl = document.querySelector('.moves');
 const livesEl = document.querySelector('.lives');
-// const minuteEl = document.getElementById('#minute').innerText = returnData(minute);
-// const secondEl = document.getElementById('#second').innerText = returnData(second);
 const msgEl = document.querySelector('h2');
+const timerEl = document.querySelector('.stopwatch');
 
 /*----- event listeners -----*/
 document.querySelector('main').addEventListener('click', handleChoice);
-// document.querySelector('.timer').addEventListener('click', 'main');
 document.querySelector('button').addEventListener('click', init);
+document.querySelector('.stopwatch').addEventListener('load', handleChoice);
 
 /*----- functions -----*/
 init();
@@ -197,7 +196,6 @@ function init() {
 	secondCard = null;
 	numBad = 0;
 	livesCounter = livesEl.innerHTML = '3';
-	// timer = clock();
 	ignoreClicks = false;
 	gameStatus = null;
 	
@@ -211,25 +209,9 @@ function render() {
 		imgEl.src = src;
 	});
 	movesEl.innerHTML = `${numBad}`;
-	timerEl.innerHTML = `${timer}`;
-	
-	// clock();
+
 	renderMsg();
 }
-
-// function clock() {
-// 	let minute = 0;
-// 	let second = 0;
-
-// 	if (second === 60) {
-//     second = 0;
-//     minute++;
-//   }
-//   if (minute === 60) {
-//     minute = 0;
-//     hour++;
-//   }
-// }
 
 function renderMsg() {
 	if (gameStatus === "WINNER") {
@@ -287,7 +269,7 @@ function handleChoice(evt) {
 			livesEl.innerHTML = '2';
 		} else if (numBad === 100) {
 			livesEl.innerHTML = '1';
-		} else if (numBad === 150) {
+		} else if (numBad === 200) {
 			livesEl.innerHTML = '0';
 		}
 	}
