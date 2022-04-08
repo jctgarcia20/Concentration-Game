@@ -10,18 +10,22 @@
    </a>
 </div>
 
-<h1>Concentration: Description</h1>
+<h1>Description</h1>
 <p>Test your memory by matching the two same cards!
 <br>
-<br>HOW TO PLAY:
-<br> - Match the same pair of identical cards (64 cards total, 32 pairs)
+<h2>HOW TO PLAY:</h2>
+<p> - Match the same pair of identical cards (64 cards total, 32 pairs)
 <br> - Try to match all the cards within a limited number of moves and under 3 lives! </p>
 
 <h2>Images</h2>
 <img src="https://i.imgur.com/O7QgR57.pngr">
 <img src="https://i.imgur.com/T452Vp8.png">
+<details>
+<summary> :art: Wireframe</summary>
+<h3Wireframe</h3><img src="https://i.imgur.com/N9xlgQz.png" width="700"/>
+</details>
 
-
+<br>
 <h2>Technologies Used</h2>
 <p>- JavaScript
 <br>- HTML
