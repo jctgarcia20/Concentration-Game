@@ -2,7 +2,7 @@
    <h1>:football: CONCENTRATION - Memory Game :football:</h1>
    <h3>https://jctgarcia20.github.io/Concentration-Game/</h3>
    <h5> Jordan-Christopher Garcia </h5>                             
-   <a href="linkedin.com/in/jctgarcia20" target="_blank">
+   <a href="https://www.linkedin.com/in/jctgarcia20/" target="_blank">
       <img src="https://img.shields.io/badge/-linkedin.com/in/user-blue?style=flat&``logo=Linkedin&logoColor=white">
    </a> 
    <a href="jctgarcia20@gmail.com" target="_blank">
