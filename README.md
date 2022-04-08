@@ -1,6 +1,7 @@
 <div align="center">
    <h1>:football: CONCENTRATION - Memory Game :football:</h1>
-   <h3>https://jctgarcia20.github.io/Concentration-Game/</h3>
+   
+   <a href="https://jctgarcia20.github.io/Concentration-Game/">Play the Game!</a>
    <h5> Jordan-Christopher Garcia </h5>                             
    <a href="https://www.linkedin.com/in/jctgarcia20/" target="_blank">
       <img src="https://img.shields.io/badge/-linkedin.com/in/jctgarcia20-blue?style=flat&``logo=Linkedin&logoColor=white">
