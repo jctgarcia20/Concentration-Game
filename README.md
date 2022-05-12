@@ -1,5 +1,5 @@
 <div align="center">
-   <h1>:football: CONCENTRATION - Memory Game :football:</h1>
+   <h1>:football: Win the Match - Memory Game :football:</h1>
    
    <a href="https://jctgarcia20.github.io/Concentration-Game/">Play the Game!</a>
    <h5> Jordan-Christopher Garcia </h5>                             
