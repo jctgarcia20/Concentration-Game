@@ -1,7 +1,7 @@
 <div align="center">
    <h1>:football: Win the Match - Memory Game :football:</h1>
    
-   <a href="https://jctgarcia20.github.io/Concentration-Game/">Play the Game!</a>
+   <a href="https://jctgarcia20.github.io/win-the-match/">Play the Game!</a>
    <h5> Jordan-Christopher Garcia </h5>                             
    <a href="https://www.linkedin.com/in/jctgarcia20/" target="_blank">
       <img src="https://img.shields.io/badge/-linkedin.com/in/jctgarcia20-blue?style=flat&``logo=Linkedin&logoColor=white">
@@ -12,29 +12,31 @@
 </div>
 
 <h1>Description</h1>
-<p>Test your memory by matching the two same cards!
+<p>Test your memory by matching the identical cards!
 <br>
-<h2>HOW TO PLAY:</h2>
+<h3>HOW TO PLAY:</h3>
 <p> - Match the same pair of identical cards (64 cards total, 32 pairs)
-<br> - Try to match all the cards within a limited number of moves and under 3 lives! </p>
+<br> - Try your best to match all the logos within a limited number of moves and under 3 lives! </p>
 
 <h2>Images</h2>
 <img src="https://i.imgur.com/O7QgR57.pngr">
 <img src="https://i.imgur.com/T452Vp8.png">
-<details>
+<details open>
 <summary> :art: Wireframe</summary>
 <h3Wireframe</h3><img src="https://i.imgur.com/N9xlgQz.png" width="700"/>
 </details>
-
 <br>
-<h2>Technologies Used</h2>
-<p>- JavaScript
-<br>- HTML5
-<br>- CSS
-<br>- Git
-<br>- GitHub
-<br>- VSCode<p>
 
-<h2>Next Steps (future improvements)</h2>
-<p>- Add timer functionality
-<br>- Add music and sound effects</p>
+## Technologies Used
+![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript) 
+![HTML5](https://img.shields.io/badge/-HTML5-333?style=flat&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS-333?style=flat&logo=css3)
+![Git](https://img.shields.io/badge/-Git-333?style=flat&logo=git)
+![Github](https://img.shields.io/badge/-GitHub-333?style=flat&logo=github)
+![VSCode](https://img.shields.io/badge/-VS_Code-333?style=flat&logo=visualstudio)
+
+## Next Steps
+
+### Upcoming Features
+- [ ] Add timer functionality
+- [ ] Add music and sound effects</p>
