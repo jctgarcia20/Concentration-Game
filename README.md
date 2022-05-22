@@ -17,12 +17,18 @@
 <h3>HOW TO PLAY:</h3>
 <p> - Match the same pair of identical cards (64 cards total, 32 pairs)
 <br> - Try your best to match all the logos within a limited number of moves and under 3 lives! </p>
+<br>
 
-<h2>Images</h2>
-<img src="https://i.imgur.com/O7QgR57.pngr">
-<img src="https://i.imgur.com/T452Vp8.png">
+## The Game:
+| Description | Screenshots |
+|------------ | ------------|
+| <h3 align="center">The Start</h3> | <img src="https://i.imgur.com/O7QgR57.pngr">
+| <h3 align="center">Playing the Game</h3> | <img src="https://i.imgur.com/T452Vp8.png" >
+</details>
+<br>
+
 <details open>
-<summary> :art: Wireframe</summary>
+<summary> :art: Wireframe - The Initial Design</summary>
 <h3Wireframe</h3><img src="https://i.imgur.com/N9xlgQz.png" width="700"/>
 </details>
 <br>
