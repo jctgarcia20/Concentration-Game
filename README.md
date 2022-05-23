@@ -11,7 +11,7 @@
    </a>
 </div>
 
-<h1>Description</h1>
+<h2>Description</h2>
 <p>Test your memory by matching the identical cards!
 <br>
 <h3>HOW TO PLAY:</h3>
@@ -19,7 +19,7 @@
 <br> - Try your best to match all the logos within a limited number of moves and under 3 lives! </p>
 <br>
 
-## The Game:
+## The Game
 | Description | Screenshots |
 |------------ | ------------|
 | <h3 align="center">The Start</h3> | <img src="https://i.imgur.com/O7QgR57.pngr">
